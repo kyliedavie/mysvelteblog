@@ -1,0 +1,21 @@
+/*-- in /src/routes/global.css --*/
+@import url('../node_modules/simpledotcss/simple.min.css');
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: seagreen;
+  }
+}
+body {
+  line-height: 1.7;
+  font-size: 1.4rem;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+body > div {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh
+}
+h1 {
+  color:seagreen;
+}
