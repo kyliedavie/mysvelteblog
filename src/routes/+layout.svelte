@@ -3,15 +3,14 @@
   </script>
 
 <nav>
-    <a href="/">Home</a>
-    <a href="/posts">Posts</a>
-    <a href="/favs">Favs</a>
-    <a href="/resources">Resources</a>
-    <a href="/donate">Donate</a>
-    <a href="/about">About</a>
+    <a href="/gallery">Gallery</a>
+    <a href="/mountains">Mountains</a>
+    <a href="/sunsets">Sunsets</a>
+    <a href="/oceans">Oceans</a>
 </nav>
 
 <main><slot/></main>
+
 <footer>
     &copy Kylie Davie 2023
 </footer>
