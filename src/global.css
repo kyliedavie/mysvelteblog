@@ -3,13 +3,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: seagreen;
+    --accent: #2E6E8B(139, 46, 97);
   }
 }
 body {
   line-height: 1.7;
   font-size: 1.4rem;
   grid-template-columns: 1fr 4fr 1fr;
+  background-color: #B7B7B7;
 }
 body > div {
   display: grid;
@@ -17,5 +18,15 @@ body > div {
   min-height: 100vh
 }
 h1 {
-  color:seagreen;
+  color: rgb(139, 46, 97);
 }
+nav.s-7IPF32Wcq3s8 {
+  background-color: white;
+}
+/* .s-v_MxLSQc46xP {
+  color: white;
+} */
+.s-q3VsBSjI9us4 {
+  color: white;
+}
+

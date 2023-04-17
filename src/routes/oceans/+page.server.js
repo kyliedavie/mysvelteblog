@@ -1,8 +1,7 @@
-// my fetch function
 export async function load({ fetch }) {  
-    const page = Math.floor(Math.random() * 10000) + 1;
+    const term = "ocean";
 
-    const url = 'https://api.artic.edu/api/v1/artworks?fields=image_id,title,artist_title,date_display,medium_display&page=' + page + '&limit=8';
+    const url = 'https://api.artic.edu/api/v1/artworks/search?q=' + term + '&fields=image_id,title,artist_title,date_display,medium_display,api_link' + '&limit=8';
 
     const artReq = await fetch(url);
 

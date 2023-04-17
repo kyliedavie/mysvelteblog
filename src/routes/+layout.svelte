@@ -21,7 +21,7 @@
       justify-content: space-evenly;
       padding: .5em;
       background-color:honeydew;
-      color: seagreen;
+      color: rgb(46, 110, 139);
     }
     main {
       grid-row: 2;
