@@ -28,7 +28,6 @@
     }
     footer {
     grid-row: 3;
-    position: sticky;
     bottom: 0;
   }
 </style>
